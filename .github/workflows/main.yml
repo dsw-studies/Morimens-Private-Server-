@@ -19,8 +19,7 @@ jobs:
       - name: Extract source archive
         shell: pwsh
         run: |
-          Expand-Archive -Path "Morimens-RC12.4.19-safe-login-source.zip" -DestinationPath "src" -Force
-
+          Expand-Archive -Path "Morimens-RC12.4.20-strict-safe-login-source.zip" -DestinationPath "src" -Force
       - name: Build portable release
         shell: cmd
         working-directory: src
